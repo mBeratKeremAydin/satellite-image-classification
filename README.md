@@ -1,6 +1,6 @@
 # Satellite image classification: Random Forest vs. a small CNN
 
-Machine Learning course project (Computer Engineering, 3rd year, December 2025) by **Emir Varol** and **Berat Kerem Aydın**. It classifies 64×64 RGB satellite tiles into land-use / land-cover classes and compares a classical baseline (Random Forest on raw pixels) with a small convolutional network written in PyTorch.
+Machine Learning course project (Computer Engineering, 3rd year, December 2025). It classifies 64×64 RGB satellite tiles into land-use / land-cover classes and compares a classical baseline (Random Forest on raw pixels) with a small convolutional network written in PyTorch.
 
 ## Results
 
@@ -50,7 +50,7 @@ Helber, Bischke, Dengel, Borth. *EuroSAT: A Novel Dataset and Deep Learning Benc
 
 ## Türkçe özet
 
-Makine Öğrenmesi dersi projesi (Emir Varol ve Berat Kerem Aydın, Aralık 2025). EuroSAT tabanlı 7 sınıflı uydu görüntüsü veri kümesinde (17.850 görüntü, %80 eğitim / %20 test) **Random Forest (%73,22)** ile PyTorch'ta yazılmış küçük bir **CNN'i (%89,75)** karşılaştırır. Veri depoda yoktur; `EUROSAT_DIR` ortam değişkeniyle klasör yolu verilir. Tek bölme ve tek çalıştırma sonucudur; sınırlar yukarıda listelenmiştir.
+Makine Öğrenmesi dersi projesi (Aralık 2025). EuroSAT tabanlı 7 sınıflı uydu görüntüsü veri kümesinde (17.850 görüntü, %80 eğitim / %20 test) **Random Forest (%73,22)** ile PyTorch'ta yazılmış küçük bir **CNN'i (%89,75)** karşılaştırır. Veri depoda yoktur; `EUROSAT_DIR` ortam değişkeniyle klasör yolu verilir. Tek bölme ve tek çalıştırma sonucudur; sınırlar yukarıda listelenmiştir.
 
 ## Note
 
